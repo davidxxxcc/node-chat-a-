@@ -9,12 +9,12 @@ function scrollToBottom () {
     var scrollHeight = messages.prop('scrollHeight');
     var newMessageHeight = newMessage.innerHeight();
     var lastMessageHeight = newMessage.prev().innerHeight();
-    console.log('clientHeight',clientHeight);
-    console.log('scrollTop',scrollTop);
-    console.log('scrollHeight',scrollHeight);
-    console.log('newMessageHeight',newMessageHeight);
-    console.log('lastMessageHeight',lastMessageHeight);
-    console.log('===========================================');
+    // console.log('clientHeight',clientHeight);
+    // console.log('scrollTop',scrollTop);
+    // console.log('scrollHeight',scrollHeight);
+    // console.log('newMessageHeight',newMessageHeight);
+    // console.log('lastMessageHeight',lastMessageHeight);
+    // console.log('===========================================');
 
     if(clientHeight + scrollTop + newMessageHeight + lastMessageHeight >= scrollHeight) {
         console.log("scrolling");
